@@ -33,11 +33,11 @@ body {
     text-decoration: none;
     color: rgb(87, 83, 83);
     padding: 0 30px 0 20px;
-   
+
 }
 
 .nav-2-button {
-    
+
     position: relative;
     background-color: #38dbcd;
     color: aliceblue;
@@ -58,7 +58,7 @@ body {
     top: 40%;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
-   
+
 
 }
 
@@ -83,11 +83,12 @@ body {
 
 .block-3 {
     text-align: center;
+   
 }
 
 
-.block-3-heading{
-    margin: 5%  0 0 0 ;
+.block-3-heading {
+    margin: 5% 0 0 0;
     font-size: 2.5rem;
     font-family: 'DM Sans', 'sans-serif';
     font-weight: bolder;
@@ -99,9 +100,10 @@ body {
     width: 10%;
     background-repeat: no-repeat;
 } */
-.block-3-para{
+.block-3-para {
     padding-bottom: 4%;
 }
+
 .block-3-p {
 
     margin: 0;
@@ -109,8 +111,8 @@ body {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    color:rgb(87, 83, 83) ;
-    
+    color: rgb(87, 83, 83);
+
 }
 
 
@@ -121,7 +123,7 @@ body {
     font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    padding: 10px 20px 20px 0 ;
+    padding: 10px 20px 20px 0;
 }
 
 .square {
@@ -133,34 +135,85 @@ body {
     border-style: double;
 
 }
-.separator{
+
+.separator {
     padding-bottom: 15px;
 }
-.block-3-hr-up{
+
+.block-3-hr-up {
     display: inline-block;
 }
 
-.block-3-hr-down{
+.block-3-hr-down {
     display: inline-block;
 }
 
-.block-3-text:hover{
+.block-3-text:hover {
     color: #38dbcd;
 }
-.row{
+
+.row {
     margin-left: 12%;
 }
-.box{
+
+.box {
     display: block;
     float: left;
     width: 20%;
-    padding:20px;
-     
+    padding: 20px;
+
 }
-.box-img{
-    width:100%;
+
+.box-img {
+    width: 100%;
     size: 20px;
 }
-.block-3-tags{
-    padding-bottom:20px ;
+
+.block-3-tags {
+    padding-bottom: 20px;
+}
+
+
+.event-section {
+    position: relative;
+    
+}
+
+
+
+.fa-calendar-check {
+    position: absolute;
+    top: 87%;
+    left: 10%;
+    display: inline-block;
+    font-size: x-large;
+    color: white;
+
+}
+
+.block-4-text {
+    display: inline-block;
+    position: absolute;
+    top: 83%;
+    color: white;
+    left: 13%;
+    font-family: 'DM Sans', 'sans-serif';
+    font-size: 1.7rem;
+}
+
+.block-4-sub-text {
+    position: absolute;
+    top: 89%;
+    left: 13%;
+    color: white;
+    font-family: 'DM Sans', 'sans-serif';
+    font-size: large;
+
+}
+
+
+.block-4-img {
+    width: 100%;
+    filter: brightness(40%);
+    margin-top: 5%;
 }

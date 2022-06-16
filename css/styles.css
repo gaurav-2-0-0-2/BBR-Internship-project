@@ -10,7 +10,7 @@ body {
 
 .nav-2 {
     text-align: center;
-    padding: 3%;
+    padding: 3% 5% 3% 5%;
 
 }
 
@@ -24,21 +24,25 @@ body {
 .nav-1-text {
     display: inline-block;
     color: aliceblue;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-2-text {
-    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     text-decoration: none;
     color: rgb(87, 83, 83);
-    padding: 0 10px 0 10px;
+    padding: 0 30px 0 20px;
+   
 }
 
 .nav-2-button {
+    
     position: relative;
     background-color: #38dbcd;
     color: aliceblue;
     border: 0;
-    left: 20%;
+    left: 17%;
     font-size: larger;
     padding: 0.7% 1.5% 0.7% 1.5%;
 }
@@ -47,21 +51,25 @@ body {
     position: relative;
 }
 
-.block-2-text {
+.block-2-heading {
+    font-size: 3rem;
     position: absolute;
-    left: 20%;
+    left: 13.5%;
     top: 40%;
     color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+   
 
 }
 
 .block-2-sub-text {
     display: inline-block;
     position: absolute;
-    left: 20%;
-    top: 50%;
+    left: 13.5%;
+    top: 60%;
     color: aliceblue;
     padding-right: 30%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .block-2-img {
@@ -77,19 +85,43 @@ body {
     text-align: center;
 }
 
-.block-3-text {
-    text-decoration: none;
-    color: #000000;
+
+.block-3-heading{
+    margin: 5%  0 0 0 ;
+    font-size: 2.5rem;
+    font-family: 'DM Sans', 'sans-serif';
+    font-weight: bolder;
 }
+
 
 /* .block-3-hr {
     color: #000000;
     width: 10%;
     background-repeat: no-repeat;
 } */
-
+.block-3-para{
+    padding-bottom: 4%;
+}
 .block-3-p {
+
+    margin: 0;
     padding: 0 10px 0 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:rgb(87, 83, 83) ;
+    
+}
+
+
+.block-3-text {
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(87, 83, 83);
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 10px 20px 20px 0 ;
 }
 
 .square {
@@ -101,11 +133,34 @@ body {
     border-style: double;
 
 }
-
+.separator{
+    padding-bottom: 15px;
+}
 .block-3-hr-up{
     display: inline-block;
 }
 
 .block-3-hr-down{
     display: inline-block;
+}
+
+.block-3-text:hover{
+    color: #38dbcd;
+}
+.row{
+    margin-left: 12%;
+}
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+    padding:20px;
+     
+}
+.box-img{
+    width:100%;
+    size: 20px;
+}
+.block-3-tags{
+    padding-bottom:20px ;
 }

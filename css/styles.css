@@ -5,13 +5,48 @@ body {
 .nav-1 {
 
     background-color: #38dbcd;
-    padding: 0.3% 8% 0.3% 8%;
+    padding: 0.3% 0 0.3% 10.1%;
+}
+
+.fa-envelope{
+    position: relative;
+    right:6%;
+    margin-left: 45%;
+}
+
+.nav-1-email {
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    right: 6%;
+}
+
+.fa-phone{
+    position: relative;
+    right:6%;
+}
+
+.nav-1-phone {
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    right: 6%;
 }
 
 .nav-2 {
     text-align: center;
     padding: 3% 6% 3% 5%;
 
+}
+
+.nav_2{
+    display: inline-block;
+    position: absolute;
+    left: 25%;
 }
 
 .fa-icon {
@@ -82,7 +117,7 @@ body {
     background-color: #38dbcd;
     color: aliceblue;
     border: 0;
-    left: 15%;
+    left: 40.5%;
     font-size: 1rem;
     padding: 0.7% 1% 0.7% 1%;
 }
@@ -98,7 +133,7 @@ body {
 .block-2-heading {
     font-size: 3rem;
     position: absolute;
-    left: 13.5%;
+    left: 15%;
     top: 30%;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
@@ -109,20 +144,34 @@ body {
 .block-2-sub-text {
     display: inline-block;
     position: absolute;
-    left: 13.5%;
+    left: 15%;
     top: 50%;
     color: aliceblue;
     padding-right: 30%;
     font-family: 'Poppins', sans-serif;
 }
 
+.fa-angle-left{
+   color:aliceblue; 
+   font-size: xx-large;
+   position: absolute;
+   top: 50%;
+   left: 10.5%;
+   z-index: 1;
+}
+
 .block-2-img {
-    filter: opacity(0.7) drop-shadow(0 0 0 #000000);
+    filter: opacity(0.6) drop-shadow(0 0 0 #000000);
 
 }
 
-.fa-envelope {
-    margin-left: 45%;
+.fa-angle-right{
+    color:aliceblue ;
+    font-size: xx-large;
+    position: absolute;
+    top: 49%;
+    right: 12%;
+    z-index: 1;
 }
 
 
@@ -133,7 +182,7 @@ body {
     color: aliceblue;
     position: absolute;
     bottom: 25%;
-    left: 13.5%;
+    left: 15%;
     padding: 10px 20px 10px 20px;
     border: 2px solid aliceblue;
     background-color: transparent;
@@ -141,7 +190,7 @@ body {
 }
 
 
-.block-2-b-1:hover{
+.block-2-b-1:hover {
     background-color: rgb(163, 163, 163);
 }
 
@@ -153,20 +202,20 @@ body {
     color: aliceblue;
     position: absolute;
     bottom: 25%;
-    left: 24%;
+    left: 26%;
     padding: 10px 25px 10px 25px;
     border: 2px solid aliceblue;
     background-color: transparent;
     border-radius: 10px;
 }
 
-.block-2-b-2:hover{
+.block-2-b-2:hover {
     background-color: rgb(163, 163, 163);
 }
 
 .block-3 {
     text-align: center;
-
+    margin-left: 0;
 }
 
 
@@ -231,14 +280,15 @@ body {
 }
 
 .row-2 {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .box {
-    display: block;
+
+    display: flex;
     float: left;
     width: 20%;
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -262,7 +312,7 @@ body {
 .fa-calendar-check {
     position: absolute;
     top: 85%;
-    left: 10%;
+    left: 11.5%;
     display: inline-block;
     font-size: x-large;
     color: white;
@@ -274,7 +324,7 @@ body {
     position: absolute;
     top: 81%;
     color: white;
-    left: 13%;
+    left: 14.5%;
     font-family: 'DM Sans', 'sans-serif';
     font-size: 1.7rem;
 }
@@ -282,7 +332,7 @@ body {
 .block-4-sub-text {
     position: absolute;
     top: 86%;
-    left: 13%;
+    left: 14.5%;
     color: white;
     font-family: 'DM Sans', 'sans-serif';
     font-size: large;
@@ -328,7 +378,7 @@ ul {
 }
 
 .footer-first {
-    padding-left: 5%;
+    padding-left: 11%;
     margin-right: 15%;
 }
 
@@ -406,13 +456,13 @@ li {
 }
 
 .bottom-footer {
-    padding: 0.5% 0 0.5% 0;
+    padding: 0.5% 0 0.5% 0.8%;
     background-color: #000000;
 }
 
 .bottom-footer p {
     display: inline-block;
-    padding: 0 55% 0 5%;
+    padding: 0 50% 0 10%;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
@@ -420,4 +470,9 @@ li {
 
 .bottom-text {
     font-weight: bolder;
+}
+
+.fa-copyright {
+    display: inline-block;
+    font-size: small;
 }

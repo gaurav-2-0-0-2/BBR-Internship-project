@@ -21,7 +21,7 @@ body {
     color: aliceblue;
 }
 
-.fa-icon:hover{
+.fa-icon:hover {
     color: aqua;
 }
 
@@ -31,7 +31,8 @@ body {
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
 }
-#logo{
+
+#logo {
     width: 7%;
     text-align: left;
     display: inline-block;
@@ -41,18 +42,19 @@ body {
     left: 8%;
 }
 
-#grant{
+#grant {
     text-align: left;
     display: inline-block;
     margin: 0;
     position: absolute;
-    top:12% ;
+    top: 12%;
     left: 16%;
     font-family: 'DM Sans', sans-serif;
-    
-    
+
+
 }
-#foundation{
+
+#foundation {
     text-align: left;
     display: inline-block;
     margin: 0;
@@ -63,6 +65,7 @@ body {
     color: #38dbcd;
 
 }
+
 .nav-2-text {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
@@ -79,13 +82,13 @@ body {
     background-color: #38dbcd;
     color: aliceblue;
     border: 0;
-    left: 17%;
+    left: 15%;
     font-size: 1rem;
     padding: 0.7% 1% 0.7% 1%;
 }
 
-.nav-2-button:hover{
-   color: aqua;
+.nav-2-button:hover {
+    color: aqua;
 }
 
 .slide-1 {
@@ -96,7 +99,7 @@ body {
     font-size: 3rem;
     position: absolute;
     left: 13.5%;
-    top: 40%;
+    top: 30%;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
 
@@ -107,7 +110,7 @@ body {
     display: inline-block;
     position: absolute;
     left: 13.5%;
-    top: 60%;
+    top: 50%;
     color: aliceblue;
     padding-right: 30%;
     font-family: 'Poppins', sans-serif;
@@ -115,11 +118,50 @@ body {
 
 .block-2-img {
     filter: opacity(0.7) drop-shadow(0 0 0 #000000);
-   
+
 }
 
 .fa-envelope {
     margin-left: 45%;
+}
+
+
+.block-2-b-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: aliceblue;
+    position: absolute;
+    bottom: 25%;
+    left: 13.5%;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid aliceblue;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+.block-2-b-1:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+
+.block-2-b-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: aliceblue;
+    position: absolute;
+    bottom: 25%;
+    left: 24%;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid aliceblue;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.block-2-b-2:hover{
+    background-color: rgb(163, 163, 163);
 }
 
 .block-3 {
@@ -188,7 +230,7 @@ body {
     color: #38dbcd;
 }
 
-.row-2{
+.row-2 {
     margin-left: 15%;
 }
 
@@ -238,7 +280,7 @@ body {
 }
 
 .block-4-sub-text {
-    position:absolute;
+    position: absolute;
     top: 86%;
     left: 13%;
     color: white;
@@ -253,40 +295,41 @@ body {
     filter: brightness(40%);
     margin-top: 5%;
 }
- 
 
 
-footer{
+
+footer {
     background-color: #232121;
-    padding:70px 40px 0 0 ;
+    padding: 70px 40px 0 0;
     margin-top: 5%;
-   
+
 }
 
-.row{
-   display: flex;
-   
+.row {
+    display: flex;
+
 }
 
-.container{
+.container {
     margin: auto;
-    
-    margin: 0 ;
-    
+
+    margin: 0;
+
 }
-ul{
+
+ul {
     list-style: none;
     padding-left: 0;
 }
 
-.footer-col{
+.footer-col {
     width: 20%;
-    padding: 0 ;
+    padding: 0;
 }
 
-.footer-first{
+.footer-first {
     padding-left: 5%;
-    margin-right:15% ;
+    margin-right: 15%;
 }
 
 
@@ -297,7 +340,7 @@ li a {
 }
 
 
-.footer-col h3{
+.footer-col h3 {
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.3rem;
@@ -306,7 +349,7 @@ li a {
 
 
 
-li{
+li {
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -316,13 +359,13 @@ li{
 
 
 
-#contact-h3{
+#contact-h3 {
     font-family: 'DM Sans', sans-serif;
 }
 
 
 .footer-text-hr {
-    
+
     width: 15%;
     position: relative;
     right: 42%;
@@ -331,47 +374,50 @@ li{
 }
 
 
-#input{
+#input {
     height: 30px;
     width: 100%;
     padding: 2px;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
-#phone{
+#phone {
     line-height: 3;
 }
-#email{
+
+#email {
     line-height: 2;
 }
-.input-container{
+
+.input-container {
     padding-top: 20px;
     display: flex;
 }
 
-.icon{
+.icon {
     text-align: center;
     padding: 10px;
     margin-left: 0;
     width: 27px;
     height: 18px;
-    background:#38dbcd ;
+    background: #38dbcd;
     color: aliceblue;
 }
 
-.bottom-footer{
-    padding:0.5% 4% 0.5% 3%;
+.bottom-footer {
+    padding: 0.5% 0 0.5% 0;
     background-color: #000000;
 }
-.bottom-footer p{
+
+.bottom-footer p {
     display: inline-block;
-    padding:0 55% 0 5%;
+    padding: 0 55% 0 5%;
     color: aliceblue;
     font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
 }
 
-.bottom-text{
+.bottom-text {
     font-weight: bolder;
 }
